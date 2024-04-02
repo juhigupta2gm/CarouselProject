@@ -1,0 +1,41 @@
+.Corousel {
+    overflow: hidden;
+    max-width: 400px;
+    position: relative;
+    margin: auto;
+   /* object-fit: cover;*/
+
+}
+
+.Corousel .Corousel_item,
+.Corousel .Corousel_item--hidden {
+    display: none;
+}
+
+.Corousel .Corousel_item img {
+    width: 95%;
+    max-width: 400px;
+    height: auto;
+
+}
+
+.Corousel .Corousel_item--visible {
+    display: block;
+}
+
+.Corousel .Corousel_actions {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    position: absolute;
+    top: 60%;
+    transform: translateY(-60%);
+}
+
+.Corousel .Corousel_actions button {
+    border-radius: 100%;
+    font-weight: Bold;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+}
